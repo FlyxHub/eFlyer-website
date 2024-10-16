@@ -1,7 +1,7 @@
 version: '2.4'
 services:
  apache:
-  image: flyxdocker/eflyerWebsite
+  image: flyxdocker/eflyerwebsite
   container_name: eflyerWebsite
   ports:
    - '80:80'
